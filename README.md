@@ -107,6 +107,6 @@ REST APIs, Apache Camel, IBM IIB, Event-Driven Systems
 
 * 📍 Vancouver, Canada
 * 📧 [scastanho@gmail.com](mailto:scastanho@gmail.com)
-* 💼 LinkedIn: *(add your link here)*
+* 💼 LinkedIn: https://www.linkedin.com/in/sergiocastanho-softwareengineer-solutionarchitect/
 
 ---

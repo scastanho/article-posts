@@ -1,4 +1,46 @@
-# article-posts
+# 7Rs Framework — Best Practices (PT / EN)
+
+---
+
+## ☁️ 7Rs Framework — Best Practices Summary
+
+| Português                                                                                                                     | English                                                                                                               |
+| ----------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| **Comece pelo negócio, não pela tecnologia:** priorize valor, impacto e criticidade antes da decisão técnica.                 | **Start with business, not technology:** prioritize value, impact, and criticality before technical decisions.        |
+| **Faça assessment por workload, não por sistema inteiro:** componentes diferentes podem ter estratégias diferentes (multi-R). | **Assess per workload, not entire system:** different components may require different strategies (multi-R).          |
+| **Mapeie dependências profundamente:** identifique integrações, dados, latência e acoplamentos antes de migrar.               | **Map dependencies thoroughly:** identify integrations, data flows, latency, and coupling before migrating.           |
+| **Use Rehost como estratégia inicial, não final:** acelera a migração, mas não entrega modernização completa.                 | **Use Rehost as a starting strategy, not final state:** accelerates migration but doesn’t deliver full modernization. |
+| **Planeje evolução incremental (Rehost → Refactor):** adote abordagem faseada para reduzir risco.                             | **Plan incremental evolution (Rehost → Refactor):** use phased approach to reduce risk.                               |
+| **Evite refatorar tudo de uma vez:** escolha sistemas críticos ou de alto valor para modernização profunda.                   | **Avoid refactoring everything at once:** prioritize high-value or critical systems.                                  |
+| **Considere custo total (TCO), não só migração:** inclua operação, manutenção e licenciamento.                                | **Consider total cost (TCO), not just migration:** include operations, maintenance, and licensing.                    |
+| **Inclua segurança desde o início:** IAM, criptografia, compliance e arquitetura Zero Trust.                                  | **Embed security from the start:** IAM, encryption, compliance, and Zero Trust architecture.                          |
+| **Garanta readiness de infraestrutura:** networking, identidade, storage e governança devem estar preparados.                 | **Ensure infrastructure readiness:** networking, identity, storage, and governance must be ready.                     |
+| **Defina estratégia de rollback:** sempre tenha plano de reversão para mitigar riscos.                                        | **Define rollback strategy:** always have a fallback plan to mitigate risks.                                          |
+| **Use automação sempre que possível:** IaC, pipelines CI/CD e scripts reduzem erro humano.                                    | **Use automation whenever possible:** IaC, CI/CD pipelines, and scripts reduce human error.                           |
+| **Adote arquitetura desacoplada:** APIs e mensageria (ex: Kafka, MQ) facilitam evolução e escalabilidade.                     | **Adopt decoupled architecture:** APIs and messaging (e.g., Kafka, MQ) enable scalability and evolution.              |
+| **Prefira processamento assíncrono quando possível:** melhora resiliência e throughput.                                       | **Prefer asynchronous processing when possible:** improves resilience and throughput.                                 |
+| **Planeje cutover com cuidado:** minimize downtime e impacto ao negócio.                                                      | **Plan cutover carefully:** minimize downtime and business impact.                                                    |
+| **Engaje stakeholders desde o início:** alinhe times técnicos e de negócio continuamente.                                     | **Engage stakeholders early:** align technical and business teams continuously.                                       |
+| **Documente decisões (ADR):** registre trade-offs e justificativas técnicas.                                                  | **Document decisions (ADR):** capture trade-offs and technical rationale.                                             |
+| **Monitore e valide após migração:** observabilidade, métricas e logs são essenciais.                                         | **Monitor and validate post-migration:** observability, metrics, and logs are critical.                               |
+| **Não ignore sistemas para Retire:** elimine redundâncias para reduzir custo e complexidade.                                  | **Do not ignore Retire candidates:** remove redundancy to reduce cost and complexity.                                 |
+| **Use Retain de forma consciente:** manter legado deve ser decisão estratégica, não inércia.                                  | **Use Retain consciously:** keeping legacy should be strategic, not inertia.                                          |
+| **Avalie SaaS (Repurchase) quando fizer sentido:** acelera time-to-market e reduz manutenção.                                 | **Evaluate SaaS (Repurchase) when appropriate:** accelerates time-to-market and reduces maintenance.                  |
+| **Considere latência e localização de dados:** especialmente para sistemas críticos ou regulados.                             | **Consider latency and data locality:** especially for critical or regulated systems.                                 |
+| **Prepare times operacionais:** suporte, monitoramento e operação devem evoluir junto com a arquitetura.                      | **Prepare operational teams:** support, monitoring, and operations must evolve with architecture.                     |
+
+---
+
+## 🎯 Key Insight
+
+| Português                                                                           | English                                                                             |
+| ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| O 7Rs não é uma decisão única — é um processo contínuo e evolutivo.                 | 7Rs is not a one-time decision — it is a continuous and evolving process.           |
+| A melhor estratégia geralmente combina múltiplos Rs ao longo do tempo.              | The best strategy often combines multiple Rs over time.                             |
+| O sucesso depende mais de execução e alinhamento do que da escolha técnica isolada. | Success depends more on execution and alignment than on isolated technical choices. |
+
+
+
 
 # 7Rs Framework + Practical Examples (PT / EN) — Enhanced with Migration Patterns
 
